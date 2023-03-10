@@ -30,10 +30,30 @@
     list-style: none;
 }
 
+.list input[type="radio"] {
+        float: right;
+        display: none;
+}
+
+.plusIcon {
+    max-width: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.plusIcon:hover {
+    rotate: 90deg;
+}
+
 .whatAMeme {
     background-color: lightgray;
     height: 3em;
     border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .memeImage {
@@ -52,8 +72,13 @@
 }
 
 @media (min-width: 320px) {
+    .plusIcon {
+        width: 20%;
+        height: auto;
+    }
+
     .memeImage {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     
@@ -64,20 +89,25 @@
     .mainTitle {
         font-size: 30px;
         text-align: left;
-        display: flex;
-        justify-content: left;
     }
 
     .whatAMeme {
         font-size: 20px;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-left: 10px;
     }
 }
 
+
+
 @media (min-width: 820px) {
+    .plusIcon {
+        width: 30%;
+        height: auto;
+    }
+
     .memeImage {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 
@@ -94,16 +124,20 @@
 
     .whatAMeme {
         font-size: 30px;
-        padding-top: 30px;
+        padding-top: 25px;
         padding-left: 10px;
     }
 }
 
 @media (min-width: 1920px) {
-    .memeImage {
-        width: 60%;
+    .plusIcon {
+        width: 100%;
         height: auto;
+    }
 
+    .memeImage {
+        width: 80%;
+        height: auto;
     }
 
     .titleBox {

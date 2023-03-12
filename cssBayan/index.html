@@ -1,105 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <link href="./style.css" rel="stylesheet" type="text/css">
-    <title>cssBayan task</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+  <title>cssBayan task</title>
 </head>
-<header>
-    <div class="title_box">
-        <h1 class="main_title">CSS Bayan</h1>
-    </div>
-</header>
-<body class="main_meme_body">
-
-    <div class="meme_box">
-
-        <div class="radio_box">
-
-            <div class="first_meme">
-
-                <input type="radio" name="check" id="1" checked>
-
-                <label for="1">
-                    <div class="box_first_meme">
-                        <p class="what_a_meme">
-                           Can i uninstall edge??
-                        </p>
-                        <img src="/cssBayan/meme/Plus_symbol.svg" alt="plus icon"  class="plus_icon">
-                    </div>
-
-                </label>
-
-                <div class="meme_image_box">
-                    <img src="/cssBayan/meme/linux.jpeg" alt="linux meme" class="meme_image">
-                </div>
-
-            </div>
-
-            <div class="second_meme">
-
-                <input type="radio" name="check" id="2">
-
-                <label for="2">
-                    <div class="box_second_meme">
-                        <p class="what_a_meme">
-                            Enough for today
-                        </p>
-                        <img src="/cssBayan/meme/Plus_symbol.svg" alt="plus icon"  class="plus_icon">
-                    </div>
-
-                </label>
-
-                <div class="meme_image_box">         
-                    <img src="/cssBayan/meme/hardwork.jpg" alt="hardwork meme" class="meme_image">
-                </div>
-            
-            </div>
-
-            <div class="third_meme">
-
-                <input type="radio" name="check" id="3">
-
-                <label for="3">
-                    <div class="box_third_meme">
-                        <p class="what_a_meme">
-                            if (bugs)
-                        </p>
-                        <img src="/cssBayan/meme/Plus_symbol.svg" alt="plus icon"  class="plus_icon">
-                    </div>
-                </label>
-
-                <div class="meme_image_box">
-                    <img src="/cssBayan/meme/bugs.jpg" alt="bugs meme" class="meme_image">
-                </div>
-            </div>
-
-            <div class="fourth_meme">
-
-                <input type="radio" name="check" id="4">
-
-                <label for="4">
-                    <div class="box_fourth_meme">
-                        <p class="what_a_meme">
-                            True version control
-                        </p>
-                        <img src="/cssBayan/meme/Plus_symbol.svg" alt="plus icon"  class="plus_icon">
-                    </div>
-                </label>
-
-                <div class="meme_image_box">
-                    <img src="/cssBayan/meme/git.jpg" alt="git meme" class="meme_image">
-                </div>
-
-            </div>
-
+<body>
+  <header class="main_title">
+    <h1>CSS Bayan</h1>
+  </header>
+  <div class="main_page_block">
+    <div class="meme_body">
+      <input type="radio" class="radio_item" name="check" id="1" checked>
+      <label for="1" class="label_check">
+        <div class="title_box">
+          <p class="meme_name">Can i uninstall edge?</p>
+          <img src="./meme/Plus_symbol.svg" alt="plus icon" class="plus_icon">
         </div>
-
+        <div class="meme_box">
+          <img src="./meme/linux.jpeg" alt="meme picture">
+        </div>
+      </label>
     </div>
-
+    <div class="meme_body">
+      <input type="radio" class="radio_item" name="check" id="2">
+      <label for="2" class="label_check">
+        <div class="title_box">
+          <p class="meme_name">Enough for today</p>
+          <img src="./meme/Plus_symbol.svg" alt="plus icon" class="plus_icon">
+        </div>
+        <div class="meme_box">
+          <img src="./meme/hardwork.jpg" alt="meme picture">
+        </div>
+      </label>
+    </div>
+    <div class="meme_body">
+      <input type="radio" class="radio_item" name="check" id="3">
+      <label for="3" class="label_check">
+        <div class="title_box">
+          <p class="meme_name">If (bugs)</p>
+          <img src="./meme/Plus_symbol.svg" alt="plus icon" class="plus_icon">
+        </div>
+        <div class="meme_box">
+          <img src="./meme/bugs.jpg" alt="meme picture">
+        </div>
+      </label>
+    </div>
+    <div class="meme_body">
+      <input type="radio" class="radio_item" name="check" id="4">
+      <label for="4" class="label_check">
+        <div class="title_box">
+          <p class="meme_name">Real version control</p>
+          <img src="./meme/Plus_symbol.svg" alt="plus icon" class="plus_icon">
+        </div>
+        <div class="meme_box">
+          <img src="./meme/git.jpg" alt="meme picture">
+        </div>
+      </label>
+    </div>
+  </div>
 </body>
-<footer>
-</footer>
 </html>
